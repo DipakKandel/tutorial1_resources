@@ -1,66 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>CRM Admin</title>
-</head>
-<body>
-  <div>
-     <h2>CRM Admin</h2>
-     <div>
-        <ul>
-           <li><a href="#">Contacts</a></li>
-           <li><a href="#">Orders</a></li>
-           <li><a href="#">Tasks</a></li>
-           <li><a href="#">Evaluation Copies</a></li>
-        </ul>
-     </div>
-  </div>
-  <div>
-     <h1>Employee Profile</h1>
-     <div id="photo">
+  <head>
+    <meta charset="utf-8" />
+    <title>CRM Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>CRM- Admin</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Order</a></li>
+        <li><a href="#">Tasks</a></li>
+        <li><a href="#">Evaluation COpies</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1>Employee Profile</h1>
+      <section>
         <h2>Photo</h2>
-        <div>
-           <img src="images/profile.jpg" title="Jack Smith photo" alt="Jack Smith photo"  />
-           <div>
-              <p>Jack Smith</p>
-           </div>
-        </div>
-     </div>
-     <div id="personal">
+        <img src="./images/profile.jpg" alt="profile photo" height="200px" />
+        <p>Jack Smith</p>
+      </section>
+      <section>
         <h2>Personal Data</h2>
-        <dl>
-           <dt>Address</dt> <dd>1 Microsoft Way</dd>
-            <dt>City</dt> <dd>Redmond</dd>
-            <dt>Region</dt> <dd>WA</dd>
-            <dt>Phone</dt> <dd>+1 (425) 882-8080</dd>
-        </dl>
-     </div>
-     <div id="customers">
+        <p>Address - Sydney</p>
+        <p>Region - NSW</p>
+        <p>Phone - 0456765456</p>
+      </section>
+
+      <section>
         <h2>Customers</h2>
-        <p><a href="#">Camille Bernard</a><br/>University of Paris</p>
-        <p><a href="#">Michel Foucault </a><br/>University of Paris</p>
-     </div>
-  </div>
-  <div>
-     <h3>New Inventory</h3>
-     <div>
-        <img src="images/book1.jpg" alt="book1" >
-        <em>Database Processing</em> by Kroenke, Auer
-     </div>
-     <div>
-        <img src="images/book2.jpg" alt="book2" >
-        <em>Fundamentals of Web Development</em> by Connolly, Hoar
-     </div>
-     <div>
-        <img src="images/book3.jpg" alt="book3" >
-        <em>Basics of Web Design: HTML5 & CSS3</em> by Felke-Morris
-     </div>
-  </div>
-  <div>
-     <p><small><a href="#">Home</a> | <a href="#">Catalog</a> | <a href="#">Inventory</a><br/>
-        <em>Copyright &copy; 2017 CRM Admin</em></small>
-     </p>
-  </div>
-</body>
+        <article>
+          <p><a href="#">Chris Evans</a><br />University of Sydney.</p>
+        </article>
+        <article>
+          <p><a href="#">Chris Patty</a><br />Kings own Institute.</p>
+        </article>
+      </section>
+    </main>
+
+    <aside>
+      <h3>New Inventory</h3>
+      <p><img src="./images/book1.jpg" alt="book-image" height="200px" /><em>Random Book from google</em></p>
+      <p><img src="./images/book2.jpg" alt="book-image" height="200px" /><em>Random Book from google</em></p>
+      <p><img src="./images/book3.jpg" alt="book-image" height="200px" /><em>Random Book from google</em></p>
+    </aside>
+
+    <footer>
+      <p><a href="#">Home</a> | <a href="#">Catalog</a> | <a href="#">Inventory</a></p>
+      <p>Copyright &copy; 2025 CRM Admin</p>
+    </footer>
+  </body>
 </html>
